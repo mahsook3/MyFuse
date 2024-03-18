@@ -64,3 +64,15 @@ We implemented our design using React JS and Tailwind CSS. Here's a glimpse of t
 ├── package-lock.json
 └── tailwind.config.js
 ```
+
+Our components are organized based on different sections of the website for easy maintenance and scalability.
+
+## Conclusion
+
+Our redesign focuses on enhancing user experience and engagement while aligning with MyFuse's vision. You can explore the live website [here](https://myfuse-x.vercel.app/).
+
+Thank you for considering our design for the MyFuse competition. We're eagerly looking forward to the results!
+
+If you have any questions or feedback, feel free to reach out. We're here to help!
+
+*This documentation was prepared by Mohamed Shaik Mahsook and Ramya.*
