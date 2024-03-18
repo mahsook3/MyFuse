@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Resume() {
   return (
-<div className="flex flex-col md:flex-row max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8 mt-20 pb-10">
+<div id='checkresume' className="flex flex-col md:flex-row max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8 mt-20 pb-10">
   <div className="md:w-1/2">
   <div className="max-w-xl space-y-3">
                     <h3 className="text-indigo-600 font-semibold">
