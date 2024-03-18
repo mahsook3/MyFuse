@@ -14,6 +14,7 @@ We used Figma to create our design, which you can check out [here](https://www.f
 ## Development Overview
 
 We implemented our design using React JS and Tailwind CSS. Here's a glimpse of the project structure:
+```
 .
 ├── assets
 │   ├── svg
@@ -62,4 +63,4 @@ We implemented our design using React JS and Tailwind CSS. Here's a glimpse of t
 ├── package.json
 ├── package-lock.json
 └── tailwind.config.js
-
+```
