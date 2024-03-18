@@ -14,4 +14,52 @@ We used Figma to create our design, which you can check out [here](https://www.f
 ## Development Overview
 
 We implemented our design using React JS and Tailwind CSS. Here's a glimpse of the project structure:
+.
+├── assets
+│   ├── svg
+│   │   ├── Apply.svg
+│   │   ├── blog.svg
+│   │   ├── explore.svg
+│   │   ├── find.svg
+│   │   ├── get.svg
+│   │   ├── Search.svg
+│   │   ├── stats.svg
+│   │   └── COMPANYSPOTLIGHT.svg
+│   ├── OrganizeResume.svg
+│   └── Resume.svg
+├── public
+│   └── index.html
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── components
+│   │   ├── About.js
+│   │   ├── Assessments.js
+│   │   ├── Banner.js
+│   │   ├── Blog.js
+│   │   ├── CompanySpotlight.js
+│   │   ├── Competitions.js
+│   │   ├── Contact.js
+│   │   ├── Emphasize.js
+│   │   ├── Features.js
+│   │   ├── Footer.js
+│   │   ├── Goals.js
+│   │   ├── Hero.js
+│   │   ├── Home.js
+│   │   ├── HowWorks.js
+│   │   ├── JobFuse.js
+│   │   ├── NavBar.js
+│   │   ├── NewsLetters.js
+│   │   ├── Partners.js
+│   │   ├── RecentJob.js
+│   │   ├── ResumeCheck.js
+│   │   ├── ResumeCreate.js
+│   │   ├── Stats.js
+│   │   ├── Team.js
+│   │   ├── TestimonialSlider.js
+│   │   └── TopCat.js
+├── package.json
+├── package-lock.json
+└── tailwind.config.js
 
