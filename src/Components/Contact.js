@@ -94,11 +94,6 @@ export default function Contact() {
                 >
                   GET IN TOUCH WITH US
                 </h2>
-                <p className="text-base text-body-color leading-relaxed mb-9">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
-                </p>
               </div>
               <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none">
