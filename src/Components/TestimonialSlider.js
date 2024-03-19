@@ -41,7 +41,7 @@ export default () => {
   }, []);
 
   const sliderSettings = {
-    dots: true, // Show dot indicators
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -115,9 +115,7 @@ export default () => {
           ))}
         </Slider>
       </div>
-      <div
-  className="absolute top-0 w-full h-[350px] bg-gradient-to-r from-indigo-500 to-indigo-700"
-></div>
+      <div className="absolute top-0 w-full h-[350px] bg-gradient-to-r from-indigo-500 to-indigo-700"></div>
     </section>
   );
 };

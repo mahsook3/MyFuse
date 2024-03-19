@@ -1,4 +1,3 @@
-// NavBar.js
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -142,7 +141,10 @@ const NavBar = () => {
         >
           <ul className="items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
             {navigation.map((item, idx) => (
-              <li key={idx} className={location.pathname === item.path ? "active" : ""}>
+              <li
+                key={idx}
+                className={location.pathname === item.path ? "active" : ""}
+              >
                 {item.isDropdown ? (
                   <div className="relative">
                     <button
@@ -186,7 +188,6 @@ const NavBar = () => {
                 )}
               </li>
             ))}
-            {/* Login and Sign up buttons */}
             <div className="flex-1 items-center justify-end gap-x-6 space-y-3 md:flex md:space-y-0">
               <li>
                 <a

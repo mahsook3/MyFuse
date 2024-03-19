@@ -1,30 +1,33 @@
-import React from 'react';
+import React from "react";
 
 const featureData = {
-    features: [
-      {
-        icon: "fas fa-users",
-        title: "Connecting People",
-        description: "At Myfuse, we understand the importance of connecting individuals with the right job opportunities."
-      },
-      {
-        icon: "fas fa-briefcase",
-        title: "Best Job Listings",
-        description: "We promise to provide the best job listings and resources to help you land your dream job in India."
-      },
-      {
-        icon: "fas fa-user-friends",
-        title: "Experienced Team",
-        description: "Our team consists of industry professionals, experienced recruiters, and HR experts dedicated to bridging the gap between candidates and job opportunities in India."
-      },
-      {
-        icon: "fas fa-globe",
-        title: "Inclusive Vision",
-        description: "Our vision is a world where every candidate has access to the resources and opportunities they need to succeed in their chosen careers."
-      }
-    ]
-  };
-  
+  features: [
+    {
+      icon: "fas fa-users",
+      title: "Connecting People",
+      description:
+        "At Myfuse, we understand the importance of connecting individuals with the right job opportunities.",
+    },
+    {
+      icon: "fas fa-briefcase",
+      title: "Best Job Listings",
+      description:
+        "We promise to provide the best job listings and resources to help you land your dream job in India.",
+    },
+    {
+      icon: "fas fa-user-friends",
+      title: "Experienced Team",
+      description:
+        "Our team consists of industry professionals, experienced recruiters, and HR experts dedicated to bridging the gap between candidates and job opportunities in India.",
+    },
+    {
+      icon: "fas fa-globe",
+      title: "Inclusive Vision",
+      description:
+        "Our vision is a world where every candidate has access to the resources and opportunities they need to succeed in their chosen careers.",
+    },
+  ],
+};
 
 export default function Goals() {
   return (
@@ -59,11 +62,14 @@ export default function Goals() {
                       className="text-indigo-600 fill-current"
                     />
                   </svg>
-                  <h4 className="text-xl font-bold text-white">
-                    Our Goal
-                  </h4>
+                  <h4 className="text-xl font-bold text-white">Our Goal</h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Empowering Futures, Enabling Success: Our vision at MyFuse.In is to be the catalyst for connecting talent with opportunities, nurturing careers, and fostering growth. We're committed to shaping a world where every individual finds their perfect placement and realizes their full potential.
+                    Empowering Futures, Enabling Success: Our vision at
+                    MyFuse.In is to be the catalyst for connecting talent with
+                    opportunities, nurturing careers, and fostering growth.
+                    We're committed to shaping a world where every individual
+                    finds their perfect placement and realizes their full
+                    potential.
                   </p>
                 </blockquote>
               </div>
@@ -77,8 +83,12 @@ export default function Goals() {
                         <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                           <i className={feature.icon} />
                         </div>
-                        <h6 className="text-xl mb-1 font-semibold">{feature.title}</h6>
-                        <p className="mb-4 text-blueGray-500">{feature.description}</p>
+                        <h6 className="text-xl mb-1 font-semibold">
+                          {feature.title}
+                        </h6>
+                        <p className="mb-4 text-blueGray-500">
+                          {feature.description}
+                        </p>
                       </div>
                     </div>
                   </div>
