@@ -49,33 +49,34 @@ export default function HowWorks() {
         <div className="absolute inset-0 bg-center dark:bg-black" />
 
         {/* Container for the cards */}
-        <div className="flex justify-center">
-          {/* Mapping over cardData to render each card */}
-          {cardData.map(card => (
-            <div key={card.id} className="group relative m-4 flex h-72 w-96 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-              {/* Image Container */}
-              <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-100 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-                <img
-                  src={card.imageUrl}
-                  className="animate-fade-in block h-full w-full scale-100 transform p-10 opacity-100 transition duration-300 group-hover:scale-110"
-                  alt=""
-                />
-              </div>
+        <div className="flex justify-center flex-wrap">
+  {/* Mapping over cardData to render each card */}
+  {cardData.map(card => (
+    <div key={card.id} className="group relative m-4 flex h-72 w-96 max-w-xs sm:w-96 sm:max-w-lg rounded-xl shadow-xl ring-gray-900/5">
+      {/* Image Container */}
+      <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-100 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+        <img
+          src={card.imageUrl}
+          className="animate-fade-in block h-full w-full scale-100 transform p-10 opacity-100 transition duration-300 group-hover:scale-110"
+          alt=""
+        />
+      </div>
 
-              {/* Text Content Container */}
-              <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-                {/* Title */}
-                <h1 className="text-2xl font-bold text-black">
-                  {card.title}
-                </h1>
-                {/* Subtitle */}
-                <h1 className="text-sm font-light text-gray-900">
-                  {card.subtitle}
-                </h1>
-              </div>
-            </div>
-          ))}
-        </div>
+      {/* Text Content Container */}
+      <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+        {/* Title */}
+        <h1 className="text-2xl font-bold text-black">
+          {card.title}
+        </h1>
+        {/* Subtitle */}
+        <h1 className="text-sm font-light text-gray-900">
+          {card.subtitle}
+        </h1>
+      </div>
+    </div>
+  ))}
+</div>
+
       </div>
       <div className='bg-gray-50'>
 <Emphasize />
